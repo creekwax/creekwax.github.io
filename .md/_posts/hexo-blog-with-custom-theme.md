@@ -1,8 +1,8 @@
 ---
 title: Hexo博客搭建及个性化主题
-date: 2018-09-07
+date: 2016-12-26
 category:
-- blog
+- 博客
 description: 基于Hexo搭建的静态博客平台，并为其配置自定义的主题。
 ---
 

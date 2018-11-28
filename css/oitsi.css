@@ -24,49 +24,60 @@ header .navbar {
     font-family: "work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "STXiHei";
 }
 
-header .navbar .brand-name {
-    color: #fff;
-    font-size: 1em;
-    font-weight: 400;
+header .navbar .nav-content {
+    margin: auto;
+    width: 100%;
+    max-width: 940px;
     vertical-align: middle;
-    line-height: 1.5em;
-    margin-left: 12em;
 }
 
+header .navbar-brand {
+    padding: 0;
+    font-size: 2rem;
+}
 
+header .navbar .brand-name {
+    color: #fff;
+    height: 2em;
+    font-family: "FangSong";
+}
 
-header #navbar-links {
-    margin-right: 12em;
+header .navbar .brand-name::before {
+    content: "『"
+}
+
+header .navbar .brand-name::after {
+    content: "』"
+}
+
+header .navbar-toggler {
+    height: 100%;
+    line-height: 1.5em;
 }
 
 header .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
 
-header .navbar a.active {
-    border-bottom: solid 3px #fff;
-    border-radius: 2px;
-}
-
 header .navbar-dark .navbar-nav .nav-link:hover {
     color: #de7d40;
+    background-color: #fff;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-    display: block;
-    padding: .5rem 1rem;
-}
-header .navbar-dark .navbar-nav .nav-link.active {
-    color: #fff;
+    padding: .15rem .85rem;
+    margin: .25rem .25rem;
+    border-radius: 4px;
 }
 
-header .navbar a {
-    font-weight: 500;
+header .navbar-dark .navbar-nav .nav-link.active {
+    color: #de7d40;
+    background-color: #eee;
 }
 
 header .navbar a.nav-link {
     color: #fff;
-    font-size: .9em;
+    font-size: 1em;
 }
 
 #navbar-links.active {
@@ -75,13 +86,13 @@ header .navbar a.nav-link {
 }
 
 div.blog {
-    padding: 0em 4em 0em 4em;
+    padding: 1em 0em 0em 0em;
 }
 
 .main-content {
     margin: auto;
-    width: 66.7%;
-    max-width: 1024px;
+    width: 100%;
+    max-width: 940px;
 }
 
 .main-content a {
@@ -97,7 +108,7 @@ div.blog {
 }
 
 .main-content .post-entry {
-    padding: 1rem 1.5rem;
+    padding: .75rem 1rem;
 }
 
 .post-entry h5 {
@@ -130,9 +141,14 @@ div.blog {
 }
 
 .post-content img {
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
     display: block;
+}
+
+.post-content span.sep {
+    display: inline-block;
+    width: 1em;
 }
 
 .post-nav {
@@ -206,6 +222,12 @@ table {
     border-right: 1px solid #286ac7;
     border-bottom: 1px solid #286ac7;
     margin-bottom: 1rem;
+}
+
+blockquote p {
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-left: 4px solid #42b983;
+    background-color: #dbe8e2;
 }
 
 th, td {
