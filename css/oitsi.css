@@ -17,7 +17,7 @@ body {
 }
 
 header .navbar {
-    background-image: linear-gradient(to right, #466BB0, #286AC7);
+    background-image: linear-gradient(to bottom, #466BB0, #286AC7);
     box-shadow: 0 0 2px 2px rgba(0,0,0,.14), 0 2px 4px 2px rgba(0,0,0,.28);
     padding-top: .2em;
     padding-bottom: .2em;
@@ -243,7 +243,7 @@ th {
 }
 
 footer {
-    background-image: linear-gradient(to right, #466BB0, #286AC7);
+    background-image: linear-gradient(to top, #466BB0, #286AC7);
     color: #fff;
     position: absolute;
     bottom: 0;
