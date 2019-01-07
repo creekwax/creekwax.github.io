@@ -39,7 +39,7 @@ header .navbar-brand {
 header .navbar .brand-name {
     color: #fff;
     height: 2em;
-    font-family: "FangSong";
+    font-family: "work Sans", "Helvetica Neue", Helvetica, "FangSong";
 }
 
 header .navbar .brand-name::before {
