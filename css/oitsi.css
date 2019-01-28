@@ -17,14 +17,14 @@ body {
 }
 
 header .navbar {
-    background-image: linear-gradient(to bottom, #466BB0, #286AC7);
-    box-shadow: 0 0 2px 2px rgba(0,0,0,.14), 0 2px 4px 2px rgba(0,0,0,.28);
-    padding-top: .2em;
-    padding-bottom: .2em;
+    background: #3f51b5;
+    padding: 0;
+    height: 3.6rem;
     font-family: "work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "STXiHei";
 }
 
 header .navbar .nav-content {
+    background: #3f51b5;
     margin: auto;
     width: 100%;
     max-width: 940px;
@@ -32,22 +32,15 @@ header .navbar .nav-content {
 }
 
 header .navbar-brand {
-    padding: 0;
-    font-size: 2rem;
+    padding-left: .85rem;
+    padding-right: 2rem;
+    font-size: 1.8rem;
 }
 
 header .navbar .brand-name {
     color: #fff;
-    height: 2em;
-    font-family: "work Sans", "Helvetica Neue", Helvetica, "FangSong";
-}
-
-header .navbar .brand-name::before {
-    content: "『"
-}
-
-header .navbar .brand-name::after {
-    content: "』"
+    height: 1.8em;
+    font-family: "Helvetica Neue", Helvetica, "Chivo";
 }
 
 header .navbar-toggler {
@@ -55,24 +48,26 @@ header .navbar-toggler {
     line-height: 1.5em;
 }
 
+header .navbar-dark .navbar-nav .nav-links {
+    background-color: #3f51b5;
+}
+
 header .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+    color: #ddd;
 }
 
 header .navbar-dark .navbar-nav .nav-link:hover {
-    color: #de7d40;
-    background-color: #fff;
+    color: #fff;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
     padding: .15rem .85rem;
     margin: .25rem .25rem;
-    border-radius: 4px;
 }
 
 header .navbar-dark .navbar-nav .nav-link.active {
-    color: #de7d40;
-    background-color: #eee;
+    color: #fff;
+    border-bottom: 2px solid #fff;
 }
 
 header .navbar a.nav-link {
@@ -99,12 +94,10 @@ div.blog {
     color: #469bdd;
     text-decoration: none;
     font-weight: 400;
-    font-family: "Chivo","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .main-content a:hover, a:focus {
     color: #1d67a0;
-    text-decoration: underline;
 }
 
 .main-content .post-entry {
@@ -171,14 +164,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #2e2e2e;
-    font-weight: 800;
+    font-weight: bold;
     margin-bottom: 0;
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #2e2e2e;
     font-weight: 700;
     margin-top: 0.5rem;
@@ -195,7 +188,7 @@ h2:before {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #2e2e2e;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -203,7 +196,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     color: #404040;
     font-weight: 500;
     margin-top: 0.1rem;
@@ -243,7 +236,7 @@ th {
 }
 
 footer {
-    background-image: linear-gradient(to top, #466BB0, #286AC7);
+    background-color: rgba(0, 0, 0, .895);
     color: #fff;
     position: absolute;
     bottom: 0;
