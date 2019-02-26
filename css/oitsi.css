@@ -141,7 +141,12 @@ div.blog {
 
 .post-content span.sep {
     display: inline-block;
-    width: 1em;
+    /* width: 1em; */
+    margin: 0 .75em;
+}
+
+.post-content span.sep::before {
+    content: "●";
 }
 
 .post-nav {
